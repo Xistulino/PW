@@ -1,0 +1,183 @@
+*{
+  margin:0;
+  padding: 0;
+  border:0;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(10, 1, 3);
+}
+
+header{
+  background-color: rgba(7, 2, 7, 0.842);
+  color: #ec0a96;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+header img{
+  width: 100px;
+  border: 3px solid;
+  border-radius: 8px;
+}
+
+nav{
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+header nav ul{
+  list-style: none;
+  text-transform: uppercase;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 30px;
+}
+
+header nav li:hover{
+  background-color:#ee75bf;
+  color: #f7a5d2;
+  padding: 15px 30px;
+  cursor: pointer;
+  transform: 1s;
+}
+
+h1{
+  color: #ec0a96;
+  text-align: end;
+  font-size: 45px;
+  margin: 24px 0;
+  padding: 15px 100px;
+  padding-top: 15px 10px;
+  line-height: 1.35;
+}
+
+
+.informacoes img{
+ width: 400px;
+ border-radius: 50px;
+ padding: 20px;
+ box-shadow: 5px 5px 5px 2px #ec0a96;
+ text-align: end;
+}
+
+.skills{
+  width: 400px;
+	color:  #ec0a96;
+  text-align: center;
+}
+
+.skills li{
+	margin: 20px 0;
+}
+
+.bar{
+	background-color: #f894;
+	display: block;
+	height: 2px;
+	border: 1px solid #b90875;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px  #ec0a96;
+}
+
+.bar span{ 
+	height: 2px;
+	float: left;
+	background-color:  #ec0a96;
+}
+
+.html{ 
+	width: 80%;
+	animation: html 2s;
+}
+
+.css{
+	width: 70%;
+	animation: css 2s;
+}
+
+.javascript{ 
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.mysql{ 
+	width: 50%;
+	animation: mysql 2s;
+}
+
+.php{
+    width: 30%;
+	animation: mysql 2s;
+}
+
+
+@keyframes html{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes css{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 93%;
+	}
+}
+
+@keyframes javascript{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes jquery{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+}
+.container{
+  color:#ee69b9;
+  top: 10%;
+  left: 20%;
+  transform: translate(25%, 25%);
+  
+}
+
+footer img{
+  width: 75px;
+  border-radius: 8px;
+ }
+
+footer{
+  background-color: rgba(192, 27, 192, 0.842);
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+  justify-content: center;
+}
+
